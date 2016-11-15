@@ -16,6 +16,5 @@ namespace WindowsDashboard
 	{
 	public:
 		MainPage();
-
 	};
 }

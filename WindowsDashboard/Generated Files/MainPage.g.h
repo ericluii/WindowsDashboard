@@ -7,6 +7,15 @@
 //------------------------------------------------------------------------------
 
 
+namespace Windows {
+    namespace UI {
+        namespace Xaml {
+            namespace Controls {
+                ref class CommandBar;
+            }
+        }
+    }
+}
 
 namespace WindowsDashboard
 {
@@ -23,6 +32,7 @@ namespace WindowsDashboard
     private:
         bool _contentLoaded;
     
+        private: ::Windows::UI::Xaml::Controls::CommandBar^ MainCommandBar;
     };
 }
 

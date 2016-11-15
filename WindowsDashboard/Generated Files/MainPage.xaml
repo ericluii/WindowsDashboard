@@ -7,9 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" RequestedTheme="Light">
     <Page.TopAppBar>
-        <CommandBar Name="MainCommandBar"/>
+        <CommandBar x:ConnectionId='1' Name="MainCommandBar"/>
     </Page.TopAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     </Grid>
 </Page>
+
